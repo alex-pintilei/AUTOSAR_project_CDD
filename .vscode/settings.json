@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "platform_types.h": "c",
+        "nvm_types.h": "c"
+    }
+}
