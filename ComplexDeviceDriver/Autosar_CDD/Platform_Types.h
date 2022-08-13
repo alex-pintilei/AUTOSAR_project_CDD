@@ -14,6 +14,8 @@
 /*==================================================================================================
 ==================================================================================================*/
 
+#define NULL_PTR (void *)0
+
 /**
  * @note         It is not allowed to add any extension to this file. Any extension invalidates the
  *               AUTOSAR conformity
