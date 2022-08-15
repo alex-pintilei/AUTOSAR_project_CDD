@@ -33,3 +33,8 @@ Connection between AUTOSAR_CDD-SystemStack detailed in the next picture:
     - The set error will have the Id 0xD12244, configured in DEM
 
 ![DiagStack-Status](https://user-images.githubusercontent.com/32928448/184627250-6bb32278-4a75-4979-be83-58d5d5a60204.png)
+
+#### > Connecting AUTOSAR_CDD component with _ComStack_ by implementing the below requirement (workflow detailed in the below picture):
+- AUTOSAR_CDD must read Mileage, Speed and Engine RPM in a cyclical mode, once every 10ms
+
+![ComStack-CDD](https://user-images.githubusercontent.com/32928448/184645508-ffc45cb4-28f1-4284-9fd4-12e8cf960ab3.png)
