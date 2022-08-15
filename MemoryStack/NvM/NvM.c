@@ -10,6 +10,10 @@ Std_ReturnType NvM_ReadBlock(NvM_BlockIdType Block_Id, void *Data)
     return E_OK;
 }
 
+void NvM_MainFunction(void)
+{
+}
+
 void NvM_Init(void)
 {
 }
@@ -27,6 +31,6 @@ void NvM_WriteAll(void)
 {
 }
 
-void NvM_SetRamBlockStatus(NvM_BlockIdType Block_Id, boolean BlockChanged)
+Std_ReturnType NvM_SetRamBlockStatus(NvM_BlockIdType Block_Id, boolean BlockChanged)
 {
 }

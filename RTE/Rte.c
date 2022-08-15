@@ -11,6 +11,8 @@ Task(OS_10ms_Cyclic_Task)
 
     NvM_MainFunction();
     Fee_MainFunction();
+    Ea_MainFunction();
+    Eep_MainFunction();
     Fls_MainFunction();
 
     BswM_MainFunction();
