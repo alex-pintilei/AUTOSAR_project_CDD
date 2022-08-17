@@ -38,3 +38,8 @@ Connection between AUTOSAR_CDD-SystemStack detailed in the next picture:
 - AUTOSAR_CDD must read Mileage, Speed and Engine RPM in a cyclical mode, once every 10ms
 
 ![ComStack-CDD](https://user-images.githubusercontent.com/32928448/184645508-ffc45cb4-28f1-4284-9fd4-12e8cf960ab3.png)
+
+#### > Connecting AUTOSAR_CDD component and all the stacks with _RTE_ by implementing the below requirements:
+- AUTOSAR_CDD must write and read blocks for Mileage, Wheel Speed and Engine Speed using RTE interfaces.
+- AUTOSAR_CDD must call the DEM interface to set the DTC via RTE.
+- AUTOSAR_CDD must call the COM interface to read the Mileage via RTE.
